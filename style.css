@@ -1,0 +1,389 @@
+.forgot{
+    position: absolute;
+    left: 50vw;
+    transform: translate(-50%);
+    font-size: 19px;
+    top: 315px;
+}
+.pass1{
+        position: absolute;
+    left: 50vw;
+    transform: translate(-50%);
+    width:150px;
+    height:30px;
+    top: 195px;
+}
+.pass2{
+        position: absolute;
+    left: 50vw;
+    transform: translate(-50%);
+    width:150px;
+    height:30px;
+    top: 245px;
+}
+.pass3{
+    left: 50vw;
+    position: absolute;
+    transform: translate(-50%);
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+    border: none;
+    background-color: black;
+    font-family: arial;
+
+    color: white;
+    cursor: pointer;
+    border-radius: 7px;
+    -webkit-box-shadow: 3px 7px 12px -5px rgba(0,0,0,0.55);
+    -moz-box-shadow: 3px 7px 12px -5px rgba(0,0,0,0.55);
+    box-shadow: 3px 7px 12px -5px rgba(0,0,0,0.55);
+    top:300px;
+    font-size: 20px;
+}
+.pass3:hover{
+        background-color: #ccc;
+}
+.submitbutton{
+    left: 50vw;
+    position: absolute;
+    transform: translate(-50%);
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+    border: none;
+    background-color: black;
+    font-family: arial;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    border-radius: 7px;
+    -webkit-box-shadow: 3px 7px 12px -5px rgba(0,0,0,0.55);
+    -moz-box-shadow: 3px 7px 12px -5px rgba(0,0,0,0.55);
+    box-shadow: 3px 7px 12px -5px rgba(0,0,0,0.55);
+    top:300px;
+    font-size: 20px;
+}
+.resetemail{
+    position: absolute;
+    left: 50vw;
+    transform: translate(-50%);
+    font-size: 20px;
+    top:130px;
+
+    text-align: center;
+}
+.inputform{
+    position: absolute;
+    left: 50vw;
+    transform: translate(-50%);
+    width: 350px;
+    
+    height: 50px;
+    top:200px;
+}
+.submitbutton:hover{
+    background-color: #ccc;
+}
+.error{
+    font-size: 32px;
+    left: 50vw;
+    transform: translate(-50%);
+    bottom: 300px;
+    position: fixed;
+    color: red;
+}
+.signupsuccess{
+        font-size: 32px;
+    left: 50vw;
+    transform: translate(-50%);
+    bottom: 300px;
+    position: fixed;
+    color: green;
+}
+.sign{
+        position: absolute;
+    font-size: 27px;
+    padding-bottom: 14px;
+    left: 50vw;
+    transform: translate(-50%);
+}
+.text1{
+    float: left;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 118px;
+    background-color: white;
+    padding-top: 96px;
+    width: 50%;
+    height: 15vh;
+    text-align: center;
+    font-size: 31px;
+}
+
+img{
+    width:61px;
+    float: left;
+
+}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*MY CODE*/
+
+.main-wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #ccc;
+}
+
+header nav {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;  
+}
+
+header nav {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;  
+}
+
+header nav ul {
+    float: left;
+}
+
+header nav ul li {
+    margin-right: 15px;
+    font-weight: bold;
+    float: left;
+    list-style: none;
+}
+
+header nav ul li a {
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 63px;
+}
+
+header .nav-login {
+    float: right;
+}
+
+header .nav-login form {
+    float: left;
+    padding-top: 15px;
+}
+
+header .nav-login form input {
+    float: left;
+    width: 140px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #ccc;
+    font-family: arial;
+    font-size: 14px;
+    color: #111;
+    line-height: 30px;
+}
+
+header .nav-login form button {
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: black;
+    font-family: arial;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    border-radius: 7px;
+    -webkit-box-shadow: 3px 7px 12px -5px rgba(0,0,0,0.55);
+    -moz-box-shadow: 3px 7px 12px -5px rgba(0,0,0,0.55);
+    box-shadow: 3px 7px 12px -5px rgba(0,0,0,0.55);
+}
+
+header .nav-login form button:hover {
+
+    background-color: #ccc;
+
+}
+
+header .nav-login a {
+        padding-top: 8px;
+    text-align: center;
+    float: left;
+    margin-top: 15px;
+    float: left;
+    width: 60px;
+    height: 22px;
+    margin-right: 10px;
+    border: none;
+    background-color: grey;
+    border-radius: 7px;
+    -webkit-box-shadow: 3px 7px 12px -5px rgba(0,0,0,0.55);
+    -moz-box-shadow: 3px 7px 12px -5px rgba(0,0,0,0.55);
+    box-shadow: 3px 7px 12px -5px rgba(0,0,0,0.55);
+    font-family: arial;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+header .nav-login a:hover {
+    background-color: black;
+}
+
+.main-container {
+    padding-top: 40px;
+}
+
+.main-container h2 {
+    font-family: arial;
+    font-size: 40px;
+    color: #111;
+    line-height: 50px;
+    text-align: center;
+}
+
+/*signup.php*/
+
+.signup-form {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.signup-form input {
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    border: none;
+    background-color: ;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 40px;
+}
+
+.signup-form button {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: #222;
+    font-family: arial;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #111;
+
+}
