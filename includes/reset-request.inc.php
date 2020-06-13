@@ -14,7 +14,7 @@ if (isset($_POST['reset-request-submit'])) {
 
 	//token will expire after 1 hour
 	$expires = date("U") + 3600;
-
+	//connection with database
 	require 'dbh.inc.php'; 
 
 	$userEmail = $_POST["email"];
@@ -33,7 +33,7 @@ if (isset($_POST['reset-request-submit'])) {
 		mysqli_stmt_execute($stmt);
 
 	}
-
+	//making table in database 	which will contain data to send password
 	$sql = "INSERT INTO pwdReset (pwdResetEmail, pwdResetSelector, pwdResetToken, pwdResetExpires) VALUES (?, ?, ?, ?);";
 
 	$stmt = mysqli_stmt_init($conn);
@@ -53,7 +53,7 @@ if (isset($_POST['reset-request-submit'])) {
 
 mysqli_stmt_close($stmt);
 mysqli_close($conn);
-
+//creating message which will be sent to email user provided
 $to = $userEmail;
 
 $subject = "reset your password for kushak's login system";
@@ -67,10 +67,10 @@ $headers .= "Reply-To: Kushak <mail@mail.com>\r\n";
 $headers .= "Content-type: text/html\r\n";
 
 mail($to, $subject, $message, $headers);
-
+//sending user back with success message
 header("Location: ../reset-password.php?reset=success");
 	
-	
+//returning user to main page if he acsess this file by acident
 } else {
 
 	header("Location: ../index.php");
